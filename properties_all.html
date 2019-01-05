@@ -1,0 +1,1479 @@
+<!DOCTYPE html>
+<!--
+   This is a starter template page. Use this page to start your new project from
+   scratch. This page gets rid of all links and provides the needed markup only.
+   -->
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Properties | All</title>
+      <!-- Tell the browser to be responsive to screen width -->
+      <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+      <!-- Ionicons -->
+      <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css">
+      <!-- Theme style -->
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css">
+      <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+      <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
+         page. However, you can choose any other skin. Make sure you
+         apply the skin class to the body tag so the changes take effect. -->
+      <link rel="stylesheet" href="dist/css/skins/skin-blue.min.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+         rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.0/css/lightgallery.min.css">
+      <link rel="stylesheet" type="text/css" href="dist/font/lg.ttf">
+      <link rel="stylesheet" type="text/css" href="dist/img/loading.gif">
+      <link rel="stylesheet"
+         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+      <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="dist/css/style.css">
+   </head>
+   <body class="skin-blue sidebar-mini fixed sidebar-expanded-on-hover">
+      <div class="wrapper">
+         <!-- Main Header --> <!-- Main Header -->
+         <header class="main-header">
+            <!-- Logo -->
+            <a href="#" class="logo">
+               <!-- mini logo for sidebar mini 50x50 pixels -->
+               <span class="logo-mini"><img class="" src="dist/img/small-logo.png"></span>
+               <!-- logo for regular state and mobile devices -->
+               <span class="logo-lg"><img class="img-class" src="dist/img/logo.png"></span>
+            </a>
+            <!-- Header Navbar -->
+            <nav class="navbar navbar-static-top" role="navigation">
+               <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+               <span class="sr-only">Toggle navigation</span>
+               </a>
+               <!-- Sidebar toggle button-->
+               <div class="input-div">
+                  <input class="search-input" type="text" name="search" placeholder="Search"><!-- <span class="search">Search</span> -->
+               </div>
+               <!-- Navbar Right Menu -->
+               <div class="navbar-custom-menu">
+                  <ul class="nav navbar-nav">
+                     <!-- User Account Menu -->
+                     <li>
+                        <a href="#"><span><i class="material-icons">notifications</i></span><span class="badge badge-light"></span></a>
+                     </li>
+                     <li class="dropdown user user-menu">
+                        <!-- Menu Toggle Button -->
+                        <!-- The user image in the navbar-->
+                        <a class="" href="#"><span class="round">V</span><span class="rohan">Vivek bambania</span></a>
+                     </li>
+                     <li><i class=" material-icons down-arrow">
+                        keyboard_arrow_down
+                        </i>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </header>
+     
+      <!-- Left side column. contains the logo and sidebar -->
+      <aside class="main-sidebar ">
+         <!-- sidebar: style can be found in sidebar.less -->
+          <section class="sidebar">
+            <!-- Sidebar Menu -->
+                <ul class="sidebar-menu" data-widget="tree">
+                  <!-- Optionally, you can add icons to the links -->
+                  <li class="active"><a href="#"data-toggle="push-menu"><img src="dist/img/side-logo.png"><span class="span-a nav-pad">Dashboard</span></a></li>
+                  <li class="treeview"><a href=""><img src="dist/img/projects.png"> <span class="span-a nav-pad">Projects</span><span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
+                     <ul class="treeview-menu">
+                        <li><a href="Projects.html">All</a></li>
+                        <li><a href="#">Unapproved</a></li>
+                        <li><a href="#">Approved</a></li>
+                        <li><a href="#">Rejected</a></li>
+                        <li><a href="#">Sold</a></li>
+                        <li><a href="#">Available</a></li>
+                        <li><a href="#">Image Gallary</a></li>
+                     </ul></li>
+                  <li class="treeview">
+                     <a href=""><img src="dist/img/properties.png"> <span class="span-a nav-pad">Properties</span><span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
+                     <ul class="treeview-menu">
+                        <li><a href="properties_all.html">All</a></li>
+                        <li><a href="#">Unapproved</a></li>
+                        <li><a href="#">Approved</a></li>
+                        <li><a href="#">Rejected</a></li>
+                        <li><a href="#">Sold</a></li>
+                        <li><a href="#">Available</a></li>
+                        <li><a href="#">Image Gallary</a></li>
+                        <li><a href="#">Map</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="Builders.html"><img src="dist/img/builders.png"> <span class="span-a nav-pad">Builder</span></a></li>
+                  <li><a href="#"><img src="dist/img/buildings.png"> <span class="span-a nav-pad">Buildings</span></a></li>
+                  <li class="treeview">
+                     <a href="#"><img src="dist/img/setting.png"> <span class="span-a nav-pad">Settings</span> <span class="pull-right-container">
+                     <i class="fa fa-angle-left pull-right"></i>
+                     </span></a>
+                     <ul class="treeview-menu">
+                        <li><a href="City.html">City</a></li>
+                        <li><a href="Region.html">Region</a></li>
+                        <li><a href="Locality.html">Locality</a></li>
+                        <li><a href="Configuration.html">Configuration</a></li>
+                     </ul>
+                  </li>
+                  <!--                <li><a href="#"><img src="dist/img/properties.png"> <span class="span-a nav-pad">reports</span></a></li>
+                     -->               
+                  <li><a href="Banks.html"><img src="dist/img/banks.png"><span class="span-a nav-pad">Banks</span></a></li>
+                   <li><a href="Users.html"><img src="dist/img/builders.png"> <span class="span-a nav-pad">User</span></a></li>
+                  <li><a href="access_control.html"><img src="dist/img/builders.png"> <span class="span-a nav-pad">Access Control</span></a></li>
+               </ul>
+            <!-- /.sidebar-menu -->
+         </section>
+         <!-- /.sidebar -->
+      </aside>
+      <!-- Content Wrapper. Contains page content -->
+      <!-- Modal -->
+      <div class="content-wrapper">
+         <!-- Main content -->
+         <section class="content container-fluid">
+            <!--------------------------
+               | Your Page Content Here |
+               -------------------------->
+            <div class="content-wrapper">
+               <div class="row row-class">
+                  <div class="col-sm-6">
+                     <div class="access">
+                        <p>Properties | All</p>
+                     </div>
+                     <div style="" class="search-div">
+                        <input type="text" style="" name="" class="new-search property-name" placeholder="Property name">
+                        <div>
+                           <input type="text"  style="    padding: 0px 15px;
+                              font-size: 15px;
+                              " name="" class="new-search" placeholder="Configuration">
+                        </div>
+                        <div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-6">
+                     <button style="float: right;" class="btn-add-new">Add New</button>
+                     <!-- <div style="float: right; margin-right: 20px;">
+                        <button class=" btn-add-new" style="    margin: 0px 0px;">Approve</button>
+                        <button type="button" class=" reject" style="margin: 0px 10px;"data-toggle="modal" data-target="#exampleModal1"> Reject</button>
+                        
+                        </div>  -->  
+                     <div class="dropdown">
+                        <a style=" " data-toggle="dropdown" class="nav-link dropdown-toggle builder-type transation-type" href="#">Transation Type <span><i style="" class="material-icons materialse">
+                        keyboard_arrow_down</i></span></a>
+                        <ul class="dropdown-menu">
+                           <option href="#" class="dropdown-item dropdown-d">Web Design</option>
+                           <option href="#" class="dropdown-item dropdown-d">Web Development</option>
+                           <option href="#" class="dropdown-item dropdown-d">Graphic Design</option>
+                           <option href="#" class="dropdown-item dropdown-d">Digital Marketing</option>
+                        </ul>
+                        <input type="text"  style="" name="" class="new-search locality-search" placeholder="Locality">
+                        <span><i style="" class="material-icons  search-icon">search</i></span>
+                        <img style="  cursor: pointer;    top: 10px;
+                           position: absolute;
+                           " src="dist/img/syn.png">
+                        <!--   <span><i style="    color: black;
+                           position: relative;
+                           width: 25px;
+                           height: 25px;
+                           margin-top: 0px;
+                           border-radius: 3px;
+                           background-color: #cce6ed;" class="material-icons ">sync</i></span>  -->
+                     </div>
+                  </div>
+               </div>
+               <div style="float: right; margin-right: 5px;">
+                  <button class=" btn-add-new" style="    margin: 0px 0px;">Approve</button>
+                  <button type="button" class=" reject" style="margin: 0px 10px;"data-toggle="modal" data-target="#exampleModal1"> Reject</button>
+                  <div class="modal fade" tabindex="-1" role="dialog" id="exampleModal1">
+                     <div class="modal-dialog  modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                           <div class="modal-header" style="border-bottom: none !important; padding: 20px 20px 0px 25px;">
+                              <button type="button" class=" btn-add-new cancel-style" style="" data-dismiss="modal" aria-label="Close">Cancel</button>
+                              <button type="button" style="float: right; margin-right: 10px;" class="btn-add-new" aria-label="Reject">Reject</button>
+                              <h4 class="modal-title" style="margin-top: 5px; font-size: 20px; font-family: 'Roboto'; font-weight: 400;">Properties</h4>
+                           </div>
+                           <div class="modal-body">
+                              <div class="row">
+                                 <div class="col-sm-4 ">
+                                    <span>
+                                       <p style="" class="kanakiya-style">Kanakiya Builders</p>
+                                    </span>
+                                 </div>
+                                 <div class="col-sm-4" style="   width: 57%; ">
+                                    <input type="text"class="rejection-text"name="cause" placeholder="Rejection reason">
+                                 </div>
+                                 <div class="col-sm-4 " style="    width: 5%;">
+                                    <span><i class="material-icons icon">clear</i></span>
+                                 </div>
+                              </div>
+                              <br>
+                              <div class="row">
+                                 <div class="col-sm-4 ">
+                                    <span>
+                                       <p class="kanakiya-style">Godrej Properties</p>
+                                    </span>
+                                 </div>
+                                 <div class="col-sm-4" style="   width: 57%; ">
+                                    <input type="text" class="rejection-text" style=" " name="cause" placeholder="Rejection reason">
+                                 </div>
+                                 <div class="col-sm-4 " style="    width: 5%;">
+                                    <span><i class="material-icons icon">clear</i></span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+              
+               <div class="table-content">
+                  <table class="table table-striped table_t">
+                     <thead style="    border-bottom: 2px solid #bdbdbd;">
+                        <tr>
+                           <th scope="col" class=" role bor">#</th>
+                           <th scope="col" class="role  bor" style="">Configuration</th>
+                           <th scope="col" class="role bor" style="">Property Name</th>
+                           <th scope="col" class="role bor">Locality</th>
+                           <th class="role bor" scope="col">Seller Name</th>
+                           <th scope="col" class="role  bor" style="">Price</th>
+                           <th scope="col" class="role bor" style="">Images</th>
+                           <th scope="col" class="role  bor" style="">Status</th>
+                           <th scope="col" class="role bor" > </th>
+                       
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr >
+                           <td  class=" change tr-radius-left" scope="row">
+                              <div class="pretty p-default p-fill">
+                                 <input type="checkbox">
+                                 <div class="state p-warning">
+                                    <label></label>
+                                 </div>
+                              </div>
+                           </td>
+                           <td class=" change ">1 BHK</td>
+                           <td class="change p ">Kanakia builders</td>
+                           <td class=" change ">Thane</td>
+                           <td class="change p ">S.A.S Enterprises Real Consultant</td>
+                           <td class=" change">3.25 core</td>
+                           <td class=" " >
+                              <ul class="ul-style" id="lightgallery">
+                                 <li data-src="dist/img/main-img.jpg" class="">
+                                    <a class="c-view" href="">
+                                       View
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                              </ul>
+                           </td>
+                           <td class="change p tr-radius-zero ">Rejected (Watermark on image)</td>
+                           <td style="padding-left: 0px; width: 10%;" class="tr-radius-right">
+                              <a href="#"title="Map" class="map" data-toggle="tooltip"data-placement="bottom"><img src="dist/img/map.png"></a>
+                              <a href="#" class="view" title="Edit" data-toggle="tooltip" class="edit-move" data-placement="bottom" style="        "><i class="material-icons icon icon-top">border_color</i></a>
+                              <a href="#" class="delete" title="Delete" data-toggle="tooltip"data-placement="bottom" style=""><i  class="material-icons icon-builder cl" style="color: #344ab1;">clear</i></a>
+                           </td>
+                        </tr>
+                         <tr >
+                           <td  class=" change tr-radius-left" scope="row">
+                              <div class="pretty p-default p-fill">
+                                 <input type="checkbox">
+                                 <div class="state p-warning">
+                                    <label></label>
+                                 </div>
+                              </div>
+                           </td>
+                           <td class=" change ">1 BHK</td>
+                           <td class="change p ">Kanakia builders</td>
+                           <td class=" change ">Thane</td>
+                           <td class="change p ">S.A.S Enterprises Real Consultant</td>
+                           <td class=" change">3.25 core</td>
+                           <td class=" " >
+                              <ul class="ul-style" id="lightgallery">
+                                 <li data-src="dist/img/main-img.jpg" class="">
+                                    <a class="c-view" href="">
+                                       View
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                              </ul>
+                           </td>
+                           <td class="change p tr-radius-zero ">Rejected (Watermark on image)</td>
+                           <td style="padding-left: 0px; width: 10%;" class="tr-radius-right">
+                              <a href="#"title="Map" class="map" data-toggle="tooltip"data-placement="bottom"><img src="dist/img/map.png"></a>
+                              <a href="#" class="view" title="Edit" data-toggle="tooltip" class="edit-move" data-placement="bottom" style="        "><i class="material-icons icon icon-top">border_color</i></a>
+                              <a href="#" class="delete" title="Delete" data-toggle="tooltip"data-placement="bottom" style=""><i  class="material-icons icon-builder cl" style="color: #344ab1;">clear</i></a>
+                           </td>
+                        </tr>
+                            <tr >
+                           <td  class=" change tr-radius-left" scope="row">
+                              <div class="pretty p-default p-fill">
+                                 <input type="checkbox">
+                                 <div class="state p-warning">
+                                    <label></label>
+                                 </div>
+                              </div>
+                           </td>
+                           <td class=" change ">1 BHK</td>
+                           <td class="change p ">Kanakia builders</td>
+                           <td class=" change ">Thane</td>
+                           <td class="change p ">S.A.S Enterprises Real Consultant</td>
+                           <td class=" change">3.25 core</td>
+                           <td class=" " >
+                              <ul class="ul-style" id="lightgallery">
+                                 <li data-src="dist/img/main-img.jpg" class="">
+                                    <a class="c-view" href="">
+                                       View
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                              </ul>
+                           </td>
+                           <td class="change p tr-radius-zero ">Rejected (Watermark on image)</td>
+                           <td style="padding-left: 0px; width: 10%;" class="tr-radius-right">
+                              <a href="#"title="Map" class="map" data-toggle="tooltip"data-placement="bottom"><img src="dist/img/map.png"></a>
+                              <a href="#" class="view" title="Edit" data-toggle="tooltip" class="edit-move" data-placement="bottom" style="        "><i class="material-icons icon icon-top">border_color</i></a>
+                              <a href="#" class="delete" title="Delete" data-toggle="tooltip"data-placement="bottom" style=""><i  class="material-icons icon-builder cl" style="color: #344ab1;">clear</i></a>
+                           </td>
+                        </tr>
+                            <tr >
+                           <td  class=" change tr-radius-left" scope="row">
+                              <div class="pretty p-default p-fill">
+                                 <input type="checkbox">
+                                 <div class="state p-warning">
+                                    <label></label>
+                                 </div>
+                              </div>
+                           </td>
+                           <td class=" change ">1 BHK</td>
+                           <td class="change p ">Kanakia builders</td>
+                           <td class=" change ">Thane</td>
+                           <td class="change p ">S.A.S Enterprises Real Consultant</td>
+                           <td class=" change">3.25 core</td>
+                           <td class=" " >
+                              <ul class="ul-style" id="lightgallery">
+                                 <li data-src="dist/img/main-img.jpg" class="">
+                                    <a class="c-view" href="">
+                                       View
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                              </ul>
+                           </td>
+                           <td class="change p tr-radius-zero ">Rejected (Watermark on image)</td>
+                           <td style="padding-left: 0px; width: 10%;" class="tr-radius-right">
+                              <a href="#"title="Map" class="map" data-toggle="tooltip"data-placement="bottom"><img src="dist/img/map.png"></a>
+                              <a href="#" class="view" title="Edit" data-toggle="tooltip" class="edit-move" data-placement="bottom" style="        "><i class="material-icons icon icon-top">border_color</i></a>
+                              <a href="#" class="delete" title="Delete" data-toggle="tooltip"data-placement="bottom" style=""><i  class="material-icons icon-builder cl" style="color: #344ab1;">clear</i></a>
+                           </td>
+                        </tr>
+                        <tr >
+                           <td  class=" change tr-radius-left" scope="row">
+                              <div class="pretty p-default p-fill">
+                                 <input type="checkbox">
+                                 <div class="state p-warning">
+                                    <label></label>
+                                 </div>
+                              </div>
+                           </td>
+                           <td class=" change ">1 BHK</td>
+                           <td class="change p ">Kanakia builders</td>
+                           <td class=" change ">Thane</td>
+                           <td class="change p ">S.A.S Enterprises Real Consultant</td>
+                           <td class=" change">3.25 core</td>
+                           <td class=" " >
+                              <ul class="ul-style" id="lightgallery">
+                                 <li data-src="dist/img/main-img.jpg" class="">
+                                    <a class="c-view" href="">
+                                       View
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                              </ul>
+                           </td>
+                           <td class="change p tr-radius-zero ">Rejected (Watermark on image)</td>
+                           <td style="padding-left: 0px; width: 10%;" class="tr-radius-right">
+                              <a href="#"title="Map" class="map" data-toggle="tooltip"data-placement="bottom"><img src="dist/img/map.png"></a>
+                              <a href="#" class="view" title="Edit" data-toggle="tooltip" class="edit-move" data-placement="bottom" style="        "><i class="material-icons icon icon-top">border_color</i></a>
+                              <a href="#" class="delete" title="Delete" data-toggle="tooltip"data-placement="bottom" style=""><i  class="material-icons icon-builder cl" style="color: #344ab1;">clear</i></a>
+                           </td>
+                        </tr>
+                        <tr >
+                           <td  class=" change tr-radius-left" scope="row">
+                              <div class="pretty p-default p-fill">
+                                 <input type="checkbox">
+                                 <div class="state p-warning">
+                                    <label></label>
+                                 </div>
+                              </div>
+                           </td>
+                           <td class=" change ">1 BHK</td>
+                           <td class="change p ">Kanakia builders</td>
+                           <td class=" change ">Thane</td>
+                           <td class="change p ">S.A.S Enterprises Real Consultant</td>
+                           <td class=" change">3.25 core</td>
+                           <td class=" " >
+                              <ul class="ul-style" id="lightgallery">
+                                 <li data-src="dist/img/main-img.jpg" class="">
+                                    <a class="c-view" href="">
+                                       View
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                              </ul>
+                           </td>
+                           <td class="change p tr-radius-zero ">Rejected (Watermark on image)</td>
+                           <td style="padding-left: 0px; width: 10%;" class="tr-radius-right">
+                              <a href="#"title="Map" class="map" data-toggle="tooltip"data-placement="bottom"><img src="dist/img/map.png"></a>
+                              <a href="#" class="view" title="Edit" data-toggle="tooltip" class="edit-move" data-placement="bottom" style="        "><i class="material-icons icon icon-top">border_color</i></a>
+                              <a href="#" class="delete" title="Delete" data-toggle="tooltip"data-placement="bottom" style=""><i  class="material-icons icon-builder cl" style="color: #344ab1;">clear</i></a>
+                           </td>
+                        </tr>
+                        <tr >
+                           <td  class=" change tr-radius-left" scope="row">
+                              <div class="pretty p-default p-fill">
+                                 <input type="checkbox">
+                                 <div class="state p-warning">
+                                    <label></label>
+                                 </div>
+                              </div>
+                           </td>
+                           <td class=" change ">1 BHK</td>
+                           <td class="change p ">Kanakia builders</td>
+                           <td class=" change ">Thane</td>
+                           <td class="change p ">S.A.S Enterprises Real Consultant</td>
+                           <td class=" change">3.25 core</td>
+                           <td class=" " >
+                              <ul class="ul-style" id="lightgallery">
+                                 <li data-src="dist/img/main-img.jpg" class="">
+                                    <a class="c-view" href="">
+                                       View
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                              </ul>
+                           </td>
+                           <td class="change p tr-radius-zero ">Rejected (Watermark on image)</td>
+                           <td style="padding-left: 0px; width: 10%;" class="tr-radius-right">
+                              <a href="#"title="Map" class="map" data-toggle="tooltip"data-placement="bottom"><img src="dist/img/map.png"></a>
+                              <a href="#" class="view" title="Edit" data-toggle="tooltip" class="edit-move" data-placement="bottom" style="        "><i class="material-icons icon icon-top">border_color</i></a>
+                              <a href="#" class="delete" title="Delete" data-toggle="tooltip"data-placement="bottom" style=""><i  class="material-icons icon-builder cl" style="color: #344ab1;">clear</i></a>
+                           </td>
+                        </tr>
+                        <tr >
+                           <td  class=" change tr-radius-left" scope="row">
+                              <div class="pretty p-default p-fill">
+                                 <input type="checkbox">
+                                 <div class="state p-warning">
+                                    <label></label>
+                                 </div>
+                              </div>
+                           </td>
+                           <td class=" change ">1 BHK</td>
+                           <td class="change p ">Kanakia builders</td>
+                           <td class=" change ">Thane</td>
+                           <td class="change p ">S.A.S Enterprises Real Consultant</td>
+                           <td class=" change">3.25 core</td>
+                           <td class=" " >
+                              <ul class="ul-style" id="lightgallery">
+                                 <li data-src="dist/img/main-img.jpg" class="">
+                                    <a class="c-view" href="">
+                                       View
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                              </ul>
+                           </td>
+                           <td class="change p tr-radius-zero ">Rejected (Watermark on image)</td>
+                           <td style="padding-left: 0px; width: 10%;" class="tr-radius-right">
+                              <a href="#"title="Map" class="map" data-toggle="tooltip"data-placement="bottom"><img src="dist/img/map.png"></a>
+                              <a href="#" class="view" title="Edit" data-toggle="tooltip" class="edit-move" data-placement="bottom" style="        "><i class="material-icons icon icon-top">border_color</i></a>
+                              <a href="#" class="delete" title="Delete" data-toggle="tooltip"data-placement="bottom" style=""><i  class="material-icons icon-builder cl" style="color: #344ab1;">clear</i></a>
+                           </td>
+                        </tr>
+                        <tr >
+                           <td  class=" change tr-radius-left" scope="row">
+                              <div class="pretty p-default p-fill">
+                                 <input type="checkbox">
+                                 <div class="state p-warning">
+                                    <label></label>
+                                 </div>
+                              </div>
+                           </td>
+                           <td class=" change ">1 BHK</td>
+                           <td class="change p ">Kanakia builders</td>
+                           <td class=" change ">Thane</td>
+                           <td class="change p ">S.A.S Enterprises Real Consultant</td>
+                           <td class=" change">3.25 core</td>
+                           <td class=" " >
+                              <ul class="ul-style" id="lightgallery">
+                                 <li data-src="dist/img/main-img.jpg" class="">
+                                    <a class="c-view" href="">
+                                       View
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li  data-src="dist/img/main-img.jpg"
+                                    class="hidden">
+                                    <a href="">
+                                       <div class="demo-gallery-poster">
+                                          <img src="dist/img/main-img.jpg" class="hidden">
+                                       </div>
+                                    </a>
+                                 </li>
+                              </ul>
+                           </td>
+                           <td class="change p tr-radius-zero ">Rejected (Watermark on image)</td>
+                           <td style="padding-left: 0px; width: 10%;" class="tr-radius-right">
+                              <a href="#"title="Map" class="map" data-toggle="tooltip"data-placement="bottom"><img src="dist/img/map.png"></a>
+                              <a href="#" class="view" title="Edit" data-toggle="tooltip" class="edit-move" data-placement="bottom" style="        "><i class="material-icons icon icon-top">border_color</i></a>
+                              <a href="#" class="delete" title="Delete" data-toggle="tooltip"data-placement="bottom" style=""><i  class="material-icons icon-builder cl" style="color: #344ab1;">clear</i></a>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+         </section>
+      </div>
+   </div>
+</body>
+                     
+      <!-- /.content-wrapper -->
+      <!-- ./wrapper -->
+      <!-- REQUIRED JS SCRIPTS -->
+      <!-- jQuery 3 -->
+      <!-- jQuery version must be >= 1.8.0; --> <script src="bower_components/jquery/dist/jquery.min.js"></script>
+      <script src="dist/js/lightgallery.min.js"></script>
+      <!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+      <!-- lightgallery plugins -->
+      <script src="dist/js/lg-thumbnail.min.js"></script>
+      <script src="dist/js/lg-fullscreen.min.js"></script>
+      <script type="text/javascript" src="dist/fontlg.woff"></script>
+      <!-- Bootstrap 3.3.7 -->
+      <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+      <!-- AdminLTE App -->
+      <script src="dist/js/adminlte.min.js"></script>
+      <script type="text/javascript">
+         $(document).ready(function() {
+           var $lightgallery = $('#lightgallery');
+           $lightgallery.lightGallery();
+           var data = $lightgallery.data('lightGallery');
+         
+           $lightgallery.on('onBeforeSlide.lg', function(event, prevIndex, index){
+             var img = data.$items.eq(index).attr('data-src');
+             $('.lg-backdrop').css('background-image', 'url('+img+')');
+           });
+         });
+      </script>
+      <script type="text/javascript">
+         $(document).ready(function() {
+           $("#lightgallery1").lightGallery(); 
+         });
+      </script>
+      <script type="text/javascript">
+         $(document).ready(function() {
+           $("#lightgallery2").lightGallery(); 
+         });
+      </script>
+      <script type="text/javascript">
+         $(document).ready(function() {
+           $("#lightgallery3").lightGallery(); 
+         });
+      </script>
+      <script type="text/javascript">
+         $(document).ready(function() {
+           $("#lightgallery4").lightGallery(); 
+         });
+      </script>
+      <script type="text/javascript">
+         $(document).ready(function() {
+           $("#lightgallery5").lightGallery(); 
+         });
+      </script><script type="text/javascript">
+         $(document).ready(function() {
+           $("#lightgallery6").lightGallery(); 
+         });
+      </script><script type="text/javascript">
+         $(document).ready(function() {
+           $("#lightgallery7").lightGallery(); 
+         });
+      </script> 
+   </body>
+</html>
